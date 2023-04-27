@@ -1,0 +1,18 @@
+
+1. Javadoc not showing as tooptip when mouse hovers over an api in Eclipse
+[Ans] 
+First, download the javadoc.zip or .jar file from oracle website.
+Unzip it in local drive.
+
+
+Windows->Preferences->Java->Installed JREs
+Click on the installed JREs. 
+Click Edit...
+In the list of JRE system libraries, click on rt.jar
+Click 'Javadoc Location...' button
+If you have downloaded the javadoc.zip or .jar file,
+Select the radio button 'External file'
+Under Archive path, browse to the javadoc.zip or .jar path, eg \Eclipse-Mars_JCOP3_latest_simu\jdk-8u361-docs-all.zip
+Under Path within archive,  browse to the docs\api, eg C:\Eclipse-Mars_JCOP3_latest_simu\jdk-8u361-docs-all\docs\api
+
+
